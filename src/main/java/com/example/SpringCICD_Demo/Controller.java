@@ -11,7 +11,7 @@ public class Controller {
     @GetMapping("/msg")
     public String getMessage(){
         return "Hello World!";
-    }
+    
 
     @GetMapping("/msg/Asif")
     public String getNewMessage(){
