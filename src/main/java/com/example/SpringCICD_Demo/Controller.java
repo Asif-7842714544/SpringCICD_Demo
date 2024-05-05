@@ -12,4 +12,9 @@ public class Controller {
     public String getMessage(){
         return "Hello World!";
     }
+
+    @GetMapping("/msg/Asif")
+    public String getNewMessage(){
+        return "Hello World! Asif";
+    }
 }
