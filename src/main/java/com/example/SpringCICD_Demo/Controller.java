@@ -13,6 +13,7 @@ public class Controller {
     @GetMapping("/msg")
     public String getMessage() {
         log.info("inside get message");
+        log.info("inside get message");
         return "Hello World!";
     }
 
